@@ -12,5 +12,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
         ftp-server: ftp://ftp.ec010.org
-        ftp-username: deploy@motolanialake.com
+        ftp-username: webmaster@ec010.org
         ftp-password: ${{ secrets.FTP_PASSWORD }}
