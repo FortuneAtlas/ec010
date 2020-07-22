@@ -13,3 +13,4 @@ jobs:
       with:
         ftp-server: ftp://ftp.ec010.org
         ftp-username: deploy@motolanialake.com
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
