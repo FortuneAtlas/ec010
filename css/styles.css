@@ -253,6 +253,17 @@ li a {
   }
 }
 
+@media (max-width:500px) { 
+  .wp-block-embed { 
+    margin-left: 0; 
+    margin-right: 0; 
+ } 
+  
+ .fb_iframe_widget_fluid span { 
+   max-width: 100%; 
+  } 
+}
+
 .container {
   padding: 0 0;
 }
